@@ -9,7 +9,7 @@ class QuotesController < ApplicationController
     end
     
     def new
-      @quote = current_user.quotes.build 
+      @quote = current_user.quotes.build
     end
     
     def create

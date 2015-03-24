@@ -1,4 +1,6 @@
 = link_to "Create a Quote", new_quote_path
 
+= link_to "Sign In", user_session_path
+
 - @quotes.each do |quote|
     %h2= link_to quote.description, quote
