@@ -1,6 +1,7 @@
 %h1 Edit Quote
 
 = render 'form'
-
-= link_to 'Cancel', quote_path
-= link_to 'Delete', quote_path, method: :delete, data: {confirm: "Are you sure?"}
+%br/
+%p
+    = link_to 'Cancel', quote_path, class: "btn btn-primary"
+    = link_to 'Delete', quote_path, method: :delete, data: {confirm: "Are you sure?"}, class: "btn btn-danger"
