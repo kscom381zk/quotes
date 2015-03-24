@@ -3,3 +3,4 @@
 = render 'form'
 
 = link_to 'Cancel', quote_path
+= link_to 'Delete', quote_path, method: :delete, data: {confirm: "Are you sure?"}

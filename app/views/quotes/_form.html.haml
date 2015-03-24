@@ -1,7 +1,7 @@
 = simple_form_for @quote, html: {multipart: true} do |f|
     - if @quote.errors.any?
         #errors
-        %h2
+        %h3
             = pluralize(@quote.errors.count, "error")
             Prevented this quote from saving
             %ul
