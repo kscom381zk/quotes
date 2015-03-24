@@ -1,7 +1,8 @@
-%h1= @quote.description
-%p= @quote.name
-%p 
-Submitted by: 
+%blockquote 
+    %p= @quote.description
+    %p
+        %small= @quote.name
+%p Submitted by: 
 = @quote.user.email
 
 %br/
