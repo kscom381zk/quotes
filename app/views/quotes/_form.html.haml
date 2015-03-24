@@ -1,0 +1,17 @@
+= simple_form_for @quote, html: {multipart: true} do |f|
+    - if @quote.errors.any?
+        #errors
+        %h2
+            = pluralize(@quote.errors.count, "error")
+            Prevented this quote from saving
+            %ul
+                - @quote.errors.full_messages.each do |msg|
+                    %li= msg
+    
+    .form-group
+        = f.input :name, input_html: {class: "form-control"}
+            
+    .form-group
+        = f.input :description, input_html: {class: "form-control"}
+    
+    = f.button :submit, class: "btn btn-primary"
