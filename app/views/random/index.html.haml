@@ -1,0 +1,13 @@
+%blockquote 
+    %p= @quote.description
+    %p
+        %small= @quote.name
+%p Submitted by: 
+= @quote.user.email
+
+%br/
+%br/
+%p
+    = link_to "Back", root_path, class: "btn btn-primary"
+    = link_to "Edit", edit_quote_path, class: "btn btn-primary"
+    = link_to "Delete", quote_path, method: :delete, data: {confirm: "Are you sure?"}, class: "btn btn-danger"
