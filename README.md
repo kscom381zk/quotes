@@ -5,10 +5,11 @@ Group Project Memo
   This web application will be a center for verifying quotes made by historical people. Webgoers can create accounts and then 
   add quotes to the website. They will also be able to save and share quotes with other users using the web application. 
   Commenting on quotes will be a key feature for this web application, adding to the social networking experience. The end goal
-  is becoming the preeminent website for sourcing quotes made by famous people.  We hope to include a unique tagging
+  is becoming the pre-eminent website for sourcing quotes made by famous people.  We hope to include a unique tagging
   citation that users can use to link quotes directly to our site. The idea is to give people a quick and easy way to fact check
   quotes. Just like how Wikipedia sources its information through its users, we will follow the same model, trusting that users will
-  interact in the same spirit as Wikipedia. 
+  interact in the same spirit as Wikipedia. It would be run by a community and moderated by the community, and would force people to
+  verify the credibility of the quotes that they post.
   
 2. Scope
 
