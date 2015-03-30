@@ -1,24 +1,24 @@
+Group Project Memo
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+1. Purpose
 
+  This web application will be a center for verifying quotes made by historical people. Webgoers can create accounts and then 
+  add quotes to the website. They will also be able to save and share quotes with other users on the web application. 
+  Commenting on quotes will be a key feature for this web application, adding to the social networking experience. The end goal
+  is becoming the preeminent website for sourcing quotes made by a famous person. We hope to include a unique tagging
+  citation that users can use to link quotes directly to our site. The idea was to give people a quick and easy way to fact check
+  quotes. Just like how Wikipedia sources its information through its users, we will follow the same model, trusting that users will
+  interact in the same spirit as Wikipedia. 
+  
+2. Scope
 
-Welcome to your Rails project on Cloud9 IDE!
+  The web app can be used by anyone who has an internet connection. The website will only contain quotes by well-know people
+  or quotes that are ubiquitous. The technologies we will use for this web application is Ruby on Rails for the backend, Bootstrap,
+  Javascript, and Jquery for the client side. We will use third party gems to perform common but important tasks such as logging users
+  in, creating forms, connecting to social networking sites, etc. 
+  
+Group Members:
 
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://quoteswebsite-sicueft.c9.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Michael Lee
+Zack Klima
+Dennis Toppel
