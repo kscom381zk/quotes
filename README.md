@@ -21,7 +21,5 @@ Group Project Memo
 Group Members:
 
 Michael Lee
-
 Zack Klima
-
 Dennis Toppel
