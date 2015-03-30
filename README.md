@@ -3,17 +3,17 @@ Group Project Memo
 1. Purpose
 
   This web application will be a center for verifying quotes made by historical people. Webgoers can create accounts and then 
-  add quotes to the website. They will also be able to save and share quotes with other users on the web application. 
+  add quotes to the website. They will also be able to save and share quotes with other users using the web application. 
   Commenting on quotes will be a key feature for this web application, adding to the social networking experience. The end goal
-  is becoming the preeminent website for sourcing quotes made by a famous person. We hope to include a unique tagging
-  citation that users can use to link quotes directly to our site. The idea was to give people a quick and easy way to fact check
+  is becoming the preeminent website for sourcing quotes made by famous people.  We hope to include a unique tagging
+  citation that users can use to link quotes directly to our site. The idea is to give people a quick and easy way to fact check
   quotes. Just like how Wikipedia sources its information through its users, we will follow the same model, trusting that users will
   interact in the same spirit as Wikipedia. 
   
 2. Scope
 
-  The web app can be used by anyone who has an internet connection. The website will only contain quotes by well-know people
-  or quotes that are ubiquitous. The technologies we will use for this web application is Ruby on Rails for the backend, Bootstrap,
+  The web app can be used by anyone who has an internet connection. The website will only contain quotes by well-known people
+  or quotes that are ubiquitous. The technologies we will use for this web application are Ruby on Rails for the backend, Bootstrap,
   Javascript, and Jquery for the client side. We will use third party gems to perform common but important tasks such as logging users
   in, creating forms, connecting to social networking sites, etc. 
   
